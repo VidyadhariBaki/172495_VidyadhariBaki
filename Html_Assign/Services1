@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style> 
+#grad1 {
+  height: 250px;
+  background-color:white;
+  background-image: url("old_age_homes.jpg");
+  background-repeat:no-repeat;
+background-size: 50% 75%;
+background-position:center;
+}
+#bg
+{
+background-color:grey;
+}
+</style>
+</head>
+<body id="bg">
+ <div class="jumbotron text-center" id="grad1">
+  <h1><span style="color:gray"> </span></h1>
+  
+  <p><span style="color:yellow"> </span></p>
+
+
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Health CheckUp
+      <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Blood Presure Check</a></li>
+      <li><a href="#">Height/weight Check</a></li>
+      <li><a href="#">Blood Sugar Test</a></li>
+      <li><a href="#">Ear Test</a></li>
+      <li><a href="#">Eye</a></li>
+    </ul>
+  </div></h3>
+    </div>
+    <div class="col-sm-4">
+     <a href="Hygenicfood.html"> <h3>Hygenic Food</h3></a>
+      
+    </div>
+    <div class="col-sm-4">
+     <a href="playarea.html"><h3>Play Area</h3></a>
+     
+    </div>
+  </div>
+</div> 
+
+
+</body>
+</html>
+ 
