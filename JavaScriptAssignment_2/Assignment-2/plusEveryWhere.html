@@ -1,0 +1,26 @@
+<html>
+<head>
+
+<body>
+   
+    <script>
+        'use strict';
+        var arr=[2,5,8];
+       
+        function addEveryWhere(arr)
+{
+       for (var i = arr.length-1; i > 0; i--){
+    
+        arr.splice(i, 0, "+");
+  }
+
+  var result=arr.join("");
+  return result;
+  
+}
+document.write(addEveryWhere(arr));
+
+</script>
+</body>
+</head>
+</html>

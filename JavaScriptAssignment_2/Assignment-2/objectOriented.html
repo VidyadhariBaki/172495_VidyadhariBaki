@@ -1,0 +1,43 @@
+
+<html>
+
+<body>
+    <script>
+function createCourse(courseTitle,courseDuration,courseStudents)
+{
+    var values=new Object;
+    values.Title=courseTitle;
+    values.Duration=courseDuration;
+    values.Students=courseStudents;
+    return values;
+}
+console.log(createCourse('Languages','4',['java','c++','oops']));
+
+
+
+function addProperty(object,newProp,newValue){
+    if(typeof(object[newProp])=="undefined"){
+        object[newProp]=newValue;
+        }
+    return object;
+
+    }
+    console.log(addProperty({}, 'firstName', 'Jim'));
+console.log(addProperty({firstName: 'Rob'}, 'firstName', 'Jim'));
+
+
+function canIGet (item,money){
+    var items={'MacBook Air': 199,'MacBook Pro':1399,'Mac Pro':2499,'Apple Sticker':1};
+    if(items[item]<=money){
+        return true;
+    }
+    return false;
+    
+
+}
+console.log(canIGet('MacBook Air', 100) );
+console.log(canIGet('MacBook Air', 1000));
+
+</script>
+</body>
+</html>
