@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<h3>length</h3>
+<body>
+<p id="demo"></p>
+<script >
+var arr=[2,4,4];
+document.getElementById("demo").innerHTML = multiplyByLength(arr);
+function multiplyByLength(arr1) {
+  let len = arr1.length;
+  for (i = 0; i < len; i++) {
+    arr1[i] = arr1[i] * len;
+  }
+  return arr1;
+}
+</script>
+</body>
+</html>
+

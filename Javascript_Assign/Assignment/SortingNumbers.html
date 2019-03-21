@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<h3>Sort numbers in ascending order </h3>
+<body>
+<p id="demo"> </p>
+<script >
+var array=[56,83,42,74,36,12,96,25,11,64];
+document.getElementById("demo").innerHTML = sortNumbersAscending(array);
+function sortNumbersAscending(arr1) {
+  let sort1= (a, b) => {
+    return a - b;
+  };
+
+  if (arr1 == []) {
+    return [];
+  } else if (arr1 == null) {
+    return [];
+  } else {
+    return arr1.sort(sort1);
+  }
+}
+</script>
+</body>
+</html>
+

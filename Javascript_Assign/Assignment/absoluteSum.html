@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<h3>Absolute Sum </h3>
+<body>
+<p id="demo"> </p>
+<script >
+var arr=[-2, -4, -6, -5, -11, 0];
+document.getElementById("demo").innerHTML = getAbsSum(arr);
+function getAbsSum(arr1) {
+  const reduce1 = (acc, Val) => {
+    return acc + Val;
+  };
+
+  return Math.abs(arr1.reduce(reduce1));
+}
+</script>
+</body>
+</html>

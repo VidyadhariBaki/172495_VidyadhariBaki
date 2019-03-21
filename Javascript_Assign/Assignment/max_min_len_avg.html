@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<h3> Numbers</h3>
+<body>
+<p id="demo"> </p>
+<script >
+var array=[66,83,2,74,36,64,96,85,21,4];
+document.getElementById("demo").innerHTML = minMaxLengthAverage(array);
+function minMaxLengthAverage(arr) {
+  const min = Math.min(...arr);
+  const max = Math.max(...arr);
+  const len = arr.length;
+    const avg= arr => arr.reduce((acc, Val) => acc + Val, 0) / len;
+  const average = avg(arr);
+  return [min, max, len, average];
+}
+</script>
+</body>
+</html>
+

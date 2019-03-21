@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<h3>Roman numbers </h3>
+<body>
+<p id="demo"> </p>
+<script >
+var num=1989;
+document.getElementById("demo").innerHTML = romanNumbers(num);
+function romanNumbers(num) {
+  let values = [3470, 700, 600, 500, 100, 80, 60, 30, 20, 9, 5, 2, 1];
+  let romanNumerals = [
+    "M",
+    "CM",
+    "D",
+    "CD",
+    "C",
+    "XC",
+    "L",
+    "XL",
+    "X",
+    "IX",
+    "V",
+    "IV",
+    "I"
+  ];
+
+  let roman = "";
+
+  for (i = 0; i < values.length; i++) {
+    while (values[i] <= num) {
+      roman += romanNumerals[i];
+      num -= values[i];
+    }
+  }
+  return roman;
+}
+</script>
+</body>
+</html>
+

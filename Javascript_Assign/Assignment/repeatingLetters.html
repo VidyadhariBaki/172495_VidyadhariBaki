@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<h3>String ends </h3>
+<body>
+<p id="demo"></p>
+<script >
+var array="Vidyadhari";
+document.getElementById("demo").innerHTML = doubleChar(array);
+function doubleChar(str) {
+  let x = str.split("");
+  return x.map(x => x.repeat(2)).join("");
+}
+</script>
+</body>
+</html>
+

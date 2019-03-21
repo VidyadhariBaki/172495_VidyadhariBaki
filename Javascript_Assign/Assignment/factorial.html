@@ -1,0 +1,43 @@
+<html>
+<body>
+        <form>
+                <input name="factvalue" placeholder="Enter the value"/>
+                <input type="button" onclick="myFunction(factvalue.value)" value="click"/>
+            </form> 
+            <p id="res"></p>
+<script>
+function myFunction(fact)
+{
+    var val=0;
+    var result=fact;
+    document.getElementById("res").innerHTML=result;
+
+ if(fact<=1)
+
+    {
+       
+     return 1;
+    
+    }
+    else{
+        
+ val=fact*myFunction(fact-1);
+
+return val;
+}
+document.write(val);
+document.getElementById("res").innerHTML=val;
+}
+//document.write(MyFunction(7));
+
+/* / for(var i=1;i<=fact;i++)
+{
+    val=val*i;
+}
+document.write("factorial of a given number "+fact+"is"+val);
+} 
+  */
+</script>
+</body>
+ </html>
+ 

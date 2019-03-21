@@ -1,0 +1,23 @@
+
+<html>
+<body>
+
+<form>
+    <input name="str1" placeholder="Enter the string"/>
+    <input type="button" onclick="AlphabetSort(str1.value)" value="click"/>
+    
+</form>
+ 
+<script>
+        function AlphabetSort(str) { 
+               document.write(str);
+               document.write("</br>");
+               var str2=str.split("").sort().join("");
+               document.writeln("After the sorting the string is="+str2);
+               
+        }
+    
+ </script>
+
+</body>
+</html
