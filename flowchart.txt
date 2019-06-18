@@ -1,0 +1,83 @@
+
+1.
+print('enter your name')
+
+x=input()
+
+if x=='alice':
+ 
+   print('hi alice')
+
+else:
+
+ print('enter your age')
+
+ age=int(input()) 
+
+if age<12:
+ 
+   print('u are not alice kidoos')
+
+elif age>100 and age<2000:
+
+    print('u are not alice grannie')
+
+elif age>=2000:
+    
+   print('unlike you,alice is not an unded,immortal vampire')
+
+
+
+2.
+
+print('enter your name') 
+
+name=input()
+
+if name=='raja':
+  
+  print('thank you')
+
+else:
+ 
+ while name!='raja':
+ 
+   print('please type your name')
+  
+   name1=input()
+  
+   if name1=='raja':
+   
+      print('thank you')
+  
+      break
+
+3.
+
+print('enter your name')
+
+x = input()
+
+if x=='joe':
+  
+  print('Access granted')
+
+while x!='joe':
+   
+  print('who are you')
+  
+  name=input()
+    
+  if name=='joe':
+    
+
+     print('enter password')
+ 
+     pass1=input()
+  
+     if pass1=='swordfish':
+ 
+          print('Access granted')
+   
+          break
+         
