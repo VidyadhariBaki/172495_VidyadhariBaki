@@ -1,0 +1,15 @@
+SFDC Chatter: 
+
+https://oneboeing.lightning.force.com/lightning/r/CollaborationGroup/0F90z0000008dT2CAI/view
+
+TFS Phoenix Backlog:
+
+https://gide-tfs.web.boeing.com/tfs/IT/2CES/ERP-Phx/_backlogs?level=Product%20Backlog&showParents=true&_a=backlog
+
+Sharepoint: 
+
+https://collab2.web.boeing.com/sites/salesforceIT/_layouts/15/start.aspx#/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2Fsites%2FsalesforceIT%2FShared%20Documents%2F01%5FProjects%5F%28Multiple%29&View=%7B865CAD35%2DB7FA%2D4223%2D8968%2D2157FF33B2B3%7D
+
+One Note Collaboration Site:
+
+https://collab2.web.boeing.com/sites/salesforceIT/_layouts/15/WopiFrame2.aspx?sourcedoc=/sites/salesforceIT/Shared%20Documents/03.1_PIs_(TFS-SAFe-Misc%20Info)/19.4/19.4%20PI%20OneNote%20Collaboration&action=default
